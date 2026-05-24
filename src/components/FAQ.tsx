@@ -71,7 +71,7 @@ export default function FAQ() {
         <div className="text-center bg-gradient-to-r from-emerald-50 to-sky-50 rounded-2xl p-6 border border-emerald-100">
           <p className="text-gray-800 font-semibold mb-4">Still have questions?</p>
           <button
-            onClick={() => window.open('https://links.bizautomation.io/widget/form/W4sLGf8VJKf5dULX0A49', '_blank')}
+            onClick={() => document.getElementById('popup-W4sLGf8VJKf5dULX0A49')?.style.setProperty('display', 'block')}
             className="inline-block bg-gradient-to-r from-red-500 to-red-600 text-white font-bold rounded-full px-10 py-4 text-base shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl cursor-pointer border-0"
           >
             Ask Me During The Workshop
