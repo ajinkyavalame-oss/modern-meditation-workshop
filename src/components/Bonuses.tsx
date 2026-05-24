@@ -43,7 +43,8 @@ export default function Bonuses() {
 
         <div className="text-center">
           <button
-            onClick={openForm}
+            onClick={() => window.open('https://links.bizautomation.io/widget/form/W4sLGf8VJKf5dULX0A49', '_blank')}
+    
             className="inline-block bg-gradient-to-r from-red-500 to-red-600 text-white font-bold rounded-full px-10 py-4 text-base shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl cursor-pointer border-0"
           >
             Get Access To Everything
