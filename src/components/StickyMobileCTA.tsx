@@ -6,13 +6,14 @@ export default function StickyMobileCTA() {
           <span className="w-2 h-2 rounded-full bg-red-500" />
           <p className="text-xs font-bold text-red-700 uppercase tracking-wide">Limited Seats Available</p>
         </div>
-        <a
-          href="https://links.bizautomation.io/widget/form/W4sLGf8VJKf5dULX0A49"
+        <button
+  onClick={() => document.getElementById('popup-W4sLGf8VJKf5dULX0A49')?.style.setProperty('display', 'block')}
+
           className="pointer-events-auto block w-full text-center bg-gradient-to-r from-red-500 to-red-600 text-white font-bold rounded-full px-6 py-5 shadow-2xl text-base transition-all duration-300 active:scale-95 hover:scale-105"
           style={{ animation: 'pulseSoft 2.5s ease-in-out infinite' }}
         >
           Reserve Your Free Seat
-        </a>
+        </button>
       </div>
     </div>
   );
