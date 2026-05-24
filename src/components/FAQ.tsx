@@ -47,7 +47,7 @@ function FAQItem({ q, a, open, onToggle }: { q: string; a: string; open: boolean
 
 export default function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
-  const { openForm } = useTallyForm();
+  
 
   return (
     <section className="py-16 px-5 bg-white">
