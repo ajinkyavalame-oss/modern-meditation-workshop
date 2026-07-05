@@ -1,3 +1,4 @@
+import ThankYou from './ThankYou';
 import Hero from './components/Hero';
 import PainPoints from './components/PainPoints';
 import WhatYoullLearn from './components/WhatYoullLearn';
@@ -14,8 +15,12 @@ import SectionDivider from './components/SectionDivider';
 import UrgencyBar from './components/UrgencyBar';
 
 export default function App() {
-  return (
-    <div className="pb-20 sm:pb-0">
+  if (window.location.pathname === "/thank-you") {
+    return <ThankYou />;
+  }
+
+  return (   
+ <div className="pb-20 sm:pb-0">
       <UrgencyBar />
       <div className="pt-16">
         <Hero />
