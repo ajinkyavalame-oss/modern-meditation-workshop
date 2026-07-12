@@ -3,7 +3,7 @@ import { useTallyForm } from '../hooks/useTallyForm';
 export default function Hero() {
   const { openForm } = useTallyForm();
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-gradient-to-br from-[#0A1428] via-[#13203A] to-[#1A2744]">
+    <section className="relative flex flex-col items-center overflow-hidden bg-gradient-to-br from-[#0A1428] via-[#13203A] to-[#1A2744] pt-10 pb-16">
       <div className="absolute top-0 left-0 w-96 h-96 bg-green-100 rounded-full blur-3xl opacity-50 -translate-x-1/2 -translate-y-1/2" />
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-sky-100 rounded-full blur-3xl opacity-60 translate-x-1/3 translate-y-1/3" />
 
